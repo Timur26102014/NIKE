@@ -79,7 +79,6 @@ body {
 }
 
 
-.btn--full { width: 100%; }
 
 
 /* BENEFITS */
@@ -90,20 +89,20 @@ body {
 
 
 .benefits__box {
- width: 1200px;
  margin: auto;
- padding: 80px 90px;
- border-radius: 45px;
- background: linear-gradient(90deg,#6a3dfc,#00c9ff); /* переливання кольорів */
+ padding: 80px 90px; 
  display: flex;
  align-items: center;
  justify-content: space-between;
+ list-style: none;
+ border: 2px solid rebeccapurple;
 }
 
 
 .benefit {
  width: 260px;
  text-align: center;
+ border-right: 1px solid;
 }
 
 
@@ -180,19 +179,16 @@ body {
 
 
 .blue {
-   background: linear-gradient(#00c9ff,#005bea);
-   box-shadow: 0px 4px 30px rgb(65, 88, 163),
-               0px 30px 67px rgb(46, 55, 122);
+   box-shadow: 0 15px 0 -4px #7d42c4, 0 32px 0 -12px #5c308f;
+   background: linear-gradient(137deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
 }
 .pink {
-   background: linear-gradient(#ff7eb3,#ff758c);
-   box-shadow: 0px 4px 30px rgb(139, 86, 137),
-               0px 30px 67px rgb(123, 44, 120);
+   box-shadow: 0 15px 0 -4px #8469a5, 0 32px 0 -12px #6c4e8e;
+   background: linear-gradient(137deg, #e65ee6 46.29%, #825fe4 90%);
 }
 .yellow {
-   background: linear-gradient(#f7971e,#ffd200);
-   box-shadow: 0px 4px 30px rgb(162, 148, 57),
-               0px 30px 67px rgb(95, 96, 25);
+   box-shadow: 0 15px 0 -4px,#d4805e, 0 32px 0 -12px #985e48;
+   background: linear-gradient(137deg, #ffc14d 10.29%, rgb(231, 120, 120) 60.79%, rgb(231, 60, 60) 87%);
 }
 
 
@@ -236,7 +232,6 @@ body {
 
 
 .order__form {
- width: 440px;
  margin: auto;
 }
 
@@ -247,6 +242,19 @@ body {
  padding: 16px 22px;
  border-radius: 30px;
  border: none;
+}
+
+input.email {
+   width: 700px
+}
+input.city {
+   width: 440px;
+}
+input.country {
+   width: 440px;
+}
+input.address {
+   width: 440px;
 }
 
 
