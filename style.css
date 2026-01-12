@@ -105,6 +105,17 @@ body {
  border-right: 1px solid;
 }
 
+.benefitq {
+    width: 260px;
+ text-align: center;
+ border-right: 1px solid;
+}
+
+.benefitw {
+    width: 260px;
+ text-align: center;
+ border-right: 1px solid;
+}
 
 .benefit img {
  height: 252px;
@@ -187,7 +198,7 @@ body {
    background: linear-gradient(137deg, #e65ee6 46.29%, #825fe4 90%);
 }
 .yellow {
-   box-shadow: 0 15px 0 -4px,#d4805e, 0 32px 0 -12px #985e48;
+   box-shadow: 0 15px 0 -4px #d4805e, 0 32px 0 -12px #985e48;
    background: linear-gradient(137deg, #ffc14d 10.29%, rgb(231, 120, 120) 60.79%, rgb(231, 60, 60) 87%);
 }
 
