@@ -10,14 +10,18 @@
 
 <header class="header">
   <div class="container header__inner">
-    <img src="./logo.png" class="logo">
+    <a href="/">
+    <img src="./img/logo.png" class="logo">
+  </a>
     <nav class="nav">
-      <a>Main page</a>
-      <a>Benefits</a>
-      <a>Advantages</a>
-      <a>Reviews</a>
-      <a>Contacts</a>
-      <a>Order</a>
+      <ul class="brbrbr">
+      <li><a class="q" href="#">Main page</a></li>
+      <li><a class="q" href="#">Benefits</a></li>
+      <li><a class="q" href="#">Advantages</a></li>
+      <li><a class="q" href="#">Reviews</a></li>
+      <li><a class="q" href="#">Contacts</a></li>
+      <li><a class="q" href="#">Order</a></li>
+      </ul>
     </nav>
   </div>
 </header>
@@ -39,67 +43,81 @@
   <div class="container">
   <ul class="benefits__box">
 
-    <li class="benefitq">
-      <img src="./quality.png">
-    </li>
+  <li class="benefit">
+    <h3>Premium<br>Quality</h3>
+    <img class="w" src="./img/quality.png" alt="">
+  </li>
+  <img src="./img/Line 36.png" alt="">
+  <li class="benefit">
+    <img class="e" src="./img/paint.png" alt="">
+    <h3>Indelible<br>paint</h3>
+  </li>
+  <img src="./img/Line 36.png" alt="">
+  <li class="benefit">
+    <h3>Fast<br>shipping</h3>
+    <img class="r" src="./img/shipping.png" alt="">
+  </li>
 
-    <li class="benefitw">
-      <img src="./paint.png">
-    </li>
-
-    <li class="benefite">
-      <img src="./shipping.png">
-    </li>
-
-  </ul>
+</ul>
   </div>
 </section>
 
 <section class="reviews">
-  <img src="./leaf.png" class="leaf-left">
+  <img src="./img/leaf.png" class="leaf-left">
 
   <h2>Reviews</h2>
+  <ul class="container reviews__list">
 
-  <div class="container reviews__list">
-
-    <div class="review blue">
+    <li class="review blue">
       <p class="page">
         Sneakers are very<br>
         comfortable and well<br>
         painted, nothing has<br>
         worn off in a year.</p>
+        <p class="y">25.11</p>
       <div class="author">
-        <img src="./avatar2.png">
-        <span>John Taylor</span>
+        <img src="./img/avatar2.png">
+        <div>
+        <h3>John Taylor</h3>
+        <p class="y">With us from 2018</p>
+        </div>
       </div>
-    </div>
+    </li>
 
-    <div class="review pink">
+    <li class="review pink">
       <p class="page">
         I'm very happy with<br>
         this color scheme.<br>
         They match all my<br>
         clothes.</p>
+        <p class="y">05.01</p>
       <div class="author">
-        <img src="./avatar3.png">
-        <span>Elizabeth Garcia</span>
+        <img src="./img/avatar3.png">
+        <div>
+        <h3>Elizabeth Garcia</h3>
+        <p class="y">With us from 2020</p>
+        </div>
       </div>
-    </div>
+    </li>
 
-    <div class="review yellow">
+    <li class="review yellow">
       <p class="page">
         Just right if you need<br>
         to go to a party.<br>
         I use them actively,<br>
         the paint is super.</p>
+        <p class="y">18.06</p>
       <div class="author">
-        <img src="./avatar1.png">
-        <span>Tom McGuire</span>
+        <img src="./img/avatar1.png">
+        <div>
+        <h3>Tom McGuire</h3>
+        <p class="y">With us from 2019</p>
+        </div>
       </div>
-    </div>
+    </li>
 
 
-  </div>
+  </ul>
 </section>
 
 
@@ -108,7 +126,7 @@
  <h2>Order</h2>
  <form class="order__form">
   <ul>
-    <li><input class="email" placeholder="Write your email"></li>
+    <li><input class="email" placeholder="Write your email                                                                                                                    Confirm"></li>
    <li><input class="country" placeholder="Your Country"></li>
    <li><input class="city" placeholder="Your City"></li>
    <li><input class="address" placeholder="Your Address"></li>

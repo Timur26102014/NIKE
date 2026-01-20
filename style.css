@@ -4,6 +4,9 @@
  box-sizing: border-box;
 }
 
+.q {
+   font-family: "Playfair Display", serif;
+}
 
 body {
  background: #020c2b;
@@ -20,7 +23,7 @@ body {
 
 /* HEADER */
 .header {
- padding: 30px 0;
+ padding: 5px 0;
 }
 
 
@@ -35,6 +38,20 @@ body {
     height: 80px;
    }
 
+.w {
+   transform: scale(1.6);
+   padding-top: 20px;
+}
+
+.e {
+   transform: scale(1.2);
+   padding-bottom: 5px;
+}
+
+.r {
+   transform: scale(1.5);
+   padding-top: 30px;
+}
 
 .nav a {
  margin-left: 30px;
@@ -45,7 +62,7 @@ body {
 
 /* HERO */
 .hero {
- background: url("./shoe.png") center/cover no-repeat;
+ background: url("./img/shoe.png") center/cover no-repeat;
  padding: 160px 0 200px;
 }
 
@@ -70,11 +87,11 @@ body {
 
 /* BUTTON */
 .btn {
- background: linear-gradient(90deg,#8a3ffc,#d66efd);
+ background-color: #8E32C6;
  color: #fff;
  border: none;
  padding: 14px 40px;
- border-radius: 30px;
+ border-radius: 15px;
  cursor: pointer;
 }
 
@@ -83,7 +100,7 @@ body {
 
 /* BENEFITS */
 .benefits {
- background: url("./benefits-bg.png") center/cover no-repeat;
+ background: url("./img/benefits-bg.png") center/cover no-repeat;
  padding: 140px 0;
 }
 
@@ -102,20 +119,8 @@ body {
 .benefit {
  width: 260px;
  text-align: center;
- border-right: 1px solid;
 }
 
-.benefitq {
-    width: 260px;
- text-align: center;
- border-right: 1px solid;
-}
-
-.benefitw {
-    width: 260px;
- text-align: center;
- border-right: 1px solid;
-}
 
 .benefit img {
  height: 252px;
@@ -127,6 +132,12 @@ body {
  font-size: 28px;
 }
 
+.benefit h3 {
+ font-family: "Playfair Display", serif;
+ font-weight: 400;
+ font-size: 36px;
+ color: #FFFFFF;
+}
 
 .line {
  width: 2px;
@@ -173,6 +184,9 @@ body {
  justify-content: space-between;
  position: relative;
  z-index: 2;
+ list-style: none;
+ padding: 0;
+ margin-bottom: 9px;
 }
 
 
@@ -184,7 +198,7 @@ body {
 
 
 .review p {
- font-size: 18px;
+ font-size: 29px;
  line-height: 1.4;
 }
 
@@ -230,7 +244,7 @@ body {
 
 /* ORDER */
 .order {
- background: url("./order-bg.png") center/cover no-repeat;
+ background: url("./img/order-bg.png") center/cover no-repeat;
  padding: 140px 0;
  text-align: center;
 }
@@ -344,6 +358,40 @@ input.address {
  letter-spacing: 2px;
 }
 
+.brbrbr {
+   list-style: none;
+   display: flex;
+}
 
+.review .y {
+   font-size: 14px;
+   color: #D8D8D8;
+}
 
+.review {
+  width: 380px;
+  padding: 40px;
+  border-radius: 28px;
+  height: 420px;
 
+  display: flex;
+  flex-direction: column;
+}
+
+.review .page {
+  margin-bottom: 10px;
+}
+
+.review .y {
+  font-size: 14px;
+  color: #D8D8D8;
+  margin-bottom: 24px;
+}
+
+.review .author {
+  margin-top: auto;
+}
+
+.q {
+   font-size: 17px;
+}
